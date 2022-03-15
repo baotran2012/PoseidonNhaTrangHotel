@@ -8,6 +8,7 @@ return [
     'SPECIAL OFFERS' => 'KHUYẾN MÃI',
     'EXPLORE NHA TRANG' => 'KHÁM PHÁ NHA TRANG',
     'GALLERY' => 'THƯ VIỆN ẢNH',
+    'RESERVATIONS' => 'ĐẶT PHÒNG',
 
 
     'SUPPORT ONLINE'  => 'HỖ TRỢ TRỰC TUYẾN',

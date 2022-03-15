@@ -24,8 +24,8 @@
                             <li  class="active">
                                 <a>{{ __('messages.EXPERIENCE') }}</a>
                                 <ul class="nav-child">
-                                            <li><a href="/poseidon-experience/about-us{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">ABOUT US - POSEIDON NHA TRANG HOTEL</a></li>
-                                            <li><a href="/poseidon-experience/location{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">LOCATION</a></li>
+                                            <li><a href="/poseidon-experience/about-us{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.EXPABOTUS') }}</a></li>
+                                            <li><a href="/poseidon-experience/location{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.EXPLOCATION') }}</a></li>
                                 </ul>
                             </li>
                             <li  class="">
@@ -62,19 +62,19 @@ FAMILY EXECUTIVE                                                </a>
                             <li  class="">
                                 <a>{{ __('messages.SERVICES AND FACILITIES') }}</a>
                                 <ul class="nav-child">
-                                            <li><a href="/poseidon-service/quay-dich-vu-van-phong{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Business center</a></li>
-                                            <li><a href="/poseidon-service/gym{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Gym</a></li>
-                                            <li><a href="/poseidon-service/dich-vu-cho-thue-xe{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Transportation Service</a></li>
-                                            <li><a href="/poseidon-service/ho-boi-ngoai-troi{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Outdoor Swimming Pool</a></li>
-                                            <li><a href="/poseidon-service/hoi-nghi{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Conference Room</a></li>
+                                            <li><a href="/poseidon-service/quay-dich-vu-van-phong{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.BUSINESS') }}</a></li>
+                                            <li><a href="/poseidon-service/gym{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.GYM') }}</a></li>
+                                            <li><a href="/poseidon-service/dich-vu-cho-thue-xe{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.TRANS') }}</a></li>
+                                            <li><a href="/poseidon-service/ho-boi-ngoai-troi{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.SWIM') }}</a></li>
+                                            <li><a href="/poseidon-service/hoi-nghi{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.ROOM') }}</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a>DINING</a>
+                                <a>{{ __('messages.DINING') }}</a>
                                 <ul class="nav-child">
-                                            <li><a href="/poseidon-dinning/poseidon-lobby-lounge-lobby{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Poseidon Lobby Lounge – Lobby</a></li>
-                                            <li><a href="/poseidon-dinning/Medusa-restaurant-03rd-floor{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Medusa Restaurant - 03rd Floor</a></li>
-                                            <li><a href="/poseidon-dinning/Hades-bar-18th-floor{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">Hades Bar - 18th Floor</a></li>
+                                            <li><a href="/poseidon-dinning/poseidon-lobby-lounge-lobby{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.HADES') }}</a></li>
+                                            <li><a href="/poseidon-dinning/Medusa-restaurant-03rd-floor{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.MEDUSA') }}</a></li>
+                                            <li><a href="/poseidon-dinning/Hades-bar-18th-floor{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.LOBBY') }}</a></li>
                                 </ul>
                             </li>
                             <li  class="">
@@ -87,17 +87,17 @@ FAMILY EXECUTIVE                                                </a>
                             </li>
                             <li  class="">
                                 <a>{{ __('messages.EXPLORE NHA TRANG') }}</a>
-                                <ul class="nav-child">
+                                <!-- <ul class="nav-child">
                                             <li><a href="/poseidon-explore/haiduonghoc{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">OCEANOGRAPHIC MUSEUM</a></li>
                                             <li><a href="/poseidon-explore/honchong{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">HON CHONG PROMONTORY</a></li>
                                             <li><a href="/poseidon-explore/thapba{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">PONAGAR CHAM TOWERS </a></li>
                                             <li><a href="/poseidon-explore/chualongson{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">LONG SON PAGODA</a></li>
                                             <li><a href="/poseidon-explore/khuphotay{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">CATHEDRAL OF NHA TRANG</a></li>
                                             <li><a href="/poseidon-explore/dammarket{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">DAM MARKET </a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li  class=""><a class="" href="/gallery{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('messages.GALLERY') }}</a></li>
-                            <li style="padding:10px"><a class="btn btn-reser" onclick="return booking('en-US')">RESERVATIONS</a></li>
+                            <li style="padding:10px"><a class="btn btn-reser" onclick="return booking('en-US')">{{ __('messages.RESERVATIONS') }}</a></li>
 
                         </ul>
 
