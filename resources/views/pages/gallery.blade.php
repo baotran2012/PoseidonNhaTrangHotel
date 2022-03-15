@@ -80,7 +80,7 @@
 <div class="container-fluid">
     <div class="container contents h-container-mt">
         <div class="row mt20">
-            <h2 style="text-align:center;color:#2E3192">갤러리</h2>
+            <h2 style="text-align:center;color:#2E3192">{{ __('gallery.title') }}</h2>
                     <div class="col-sm-4 mb20">
                         <a href="/galleries/receptions">
                             <div class="block-contain">
