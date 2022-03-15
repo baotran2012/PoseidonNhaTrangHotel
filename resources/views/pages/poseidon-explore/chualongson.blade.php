@@ -122,6 +122,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="container h-container-mt">
+        <a class="btn-cus-close" href="../{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}"></a>
             <div class="container contents">
 
                 <div class="row">

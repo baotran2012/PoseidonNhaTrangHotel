@@ -2,9 +2,9 @@
 
 return [
     'pagetitle'=> 'CONTACT',
-    'title' => 'CONTACT',
-    'label.address' => 'Address : 30 Tran Quang Khai St., Loc Tho Ward., Nha Trang City, VietNam',
-    'label.phone' => 'Phone',
+    'title' => 'КОНТАКТ',
+    'label.address' => 'Адрес : № 30, ул. Чан Куанг Кхай, п. Лок Тхо, Нячанг, Вьетнам',
+    'label.phone' => 'Số điện thoại',
 ];
 
 

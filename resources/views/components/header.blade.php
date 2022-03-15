@@ -1,7 +1,7 @@
 <input type="hidden" value="ko-KR" id="Culture">
 <div class="my-menu">
 
-    <a class="" href="/">
+    <a class="" href="/{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">
         <div class="logo">
             <img src="{{asset('upload/images/Logo/logo-poseidon.png')}}" class="img-responsive">
         </div>
@@ -87,7 +87,7 @@ FAMILY EXECUTIVE                                                </a>
                             </li>
                             <li  class="">
                                 <a>{{ __('messages.EXPLORE NHA TRANG') }}</a>
-                                <ul class="nav-child">
+                                <ul class="nav-child" >
                                             <li><a href="/poseidon-explore/haiduonghoc{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore3.title') }}</a></li>
                                             <li><a href="/poseidon-explore/honchong{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore4.title') }}</a></li>
                                             <li><a href="/poseidon-explore/thapba{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore6.title') }}</a></li>

@@ -7771,6 +7771,7 @@
         },
         {
             "name": "symfony/translation",
+<<<<<<< HEAD
             "version": "v6.0.6",
             "version_normalized": "6.0.6.0",
             "source": {
@@ -7782,6 +7783,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/f6639cb9b5e0c57fe31e3263b900a77eedb0c908",
                 "reference": "f6639cb9b5e0c57fe31e3263b900a77eedb0c908",
+=======
+            "version": "v5.4.6",
+            "version_normalized": "5.4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "a7ca9fdfffb0174209440c2ffa1dee228e15d95b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/a7ca9fdfffb0174209440c2ffa1dee228e15d95b",
+                "reference": "a7ca9fdfffb0174209440c2ffa1dee228e15d95b",
+>>>>>>> namnhi
                 "shasum": ""
             },
             "require": {
@@ -7818,7 +7832,11 @@
                 "symfony/config": "",
                 "symfony/yaml": ""
             },
+<<<<<<< HEAD
             "time": "2022-03-02T12:58:14+00:00",
+=======
+            "time": "2022-03-02T12:56:28+00:00",
+>>>>>>> namnhi
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -7849,7 +7867,11 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.0.6"
+=======
+                "source": "https://github.com/symfony/translation/tree/v5.4.6"
+>>>>>>> namnhi
             },
             "funding": [
                 {

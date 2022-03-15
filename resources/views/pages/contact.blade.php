@@ -84,16 +84,16 @@
 <div class="container-fluid">
     <div class="row">
         <div class="container h-container-mt">
-            <a class="btn-cus-close" href="index.html"></a>
+            <a class="btn-cus-close" href="/{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}"></a>
             <div class="container contents" style="margin-top:25px">
                 <div class="row">
 
                     <div class="col-sm-8 map" id="map-canvas">
                     </div>
                     <div class="col-sm-4">
-                        <h4 style="color:#3EACD2" class="text-center">{{ __('contact.title') }}</h4>
-                        <p>{{ __('contact.label.address') }} </p>
-                        <p>{{ __('contact.label.phone') }} : (+84) 0258 3826789 - 0258 3736868</p>
+                        <h4 style="color:#3EACD2" class="text-center">{!!html_entity_decode(__('contact.title'))!!}</h4>
+                        <p>{!!html_entity_decode(__('contact.label.address'))!!} </p>
+                        <p>{!!html_entity_decode(__('contact.label.phone'))!!} : (+84) 0258 3826789 - 0258 3736868</p>
                         <p>Email : info@poseidonnhatranghotel.com</p>
                         <form class="form form-horizontal">
                             <div class="form-group">

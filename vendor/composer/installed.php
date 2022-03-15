@@ -1221,12 +1221,21 @@
             'dev_requirement' => false,
         ),
         'symfony/translation' => array(
+<<<<<<< HEAD
             'pretty_version' => 'v6.0.6',
             'version' => '6.0.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
             'reference' => 'f6639cb9b5e0c57fe31e3263b900a77eedb0c908',
+=======
+            'pretty_version' => 'v5.4.6',
+            'version' => '5.4.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/translation',
+            'aliases' => array(),
+            'reference' => 'a7ca9fdfffb0174209440c2ffa1dee228e15d95b',
+>>>>>>> namnhi
             'dev_requirement' => false,
         ),
         'symfony/translation-contracts' => array(
