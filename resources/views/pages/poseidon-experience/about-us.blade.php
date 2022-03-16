@@ -132,7 +132,7 @@
                         </div>
                         <div class="col-sm-4">
                                 <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-
+                                    <img src="../Upload/images/Background/view2.jpg" alt="">
                                 </ul>
 
                         </div>

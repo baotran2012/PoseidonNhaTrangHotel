@@ -133,7 +133,15 @@
                         </div>
                         <div class="col-sm-4">
                                 <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-
+                                    <li data-thumb="../Upload/images/Meeting/m1.jpg">
+                                        <img src="../Upload/images/Meeting/m1.jpg" class="img-responsive">
+                                    </li>
+                                    <li data-thumb="../Upload/images/Meeting/m2.jpg">
+                                        <img src="../Upload/images/Meeting/m2.jpg" class="img-responsive">
+                                    </li>
+                                    <li data-thumb="../Upload/images/Meeting/m3.jpg">
+                                        <img src="../Upload/images/Meeting/m3.jpg" class="img-responsive">
+                                    </li>
                                 </ul>
 
                         </div>

@@ -130,17 +130,17 @@
                             <h3> {!!html_entity_decode(__('sevice2.title'))!!}</h3>
                         </div>
                         <div class="col-sm-4">
-                                <ul id="image-gallery" class="gallery list-unstyled lightSlider lsGrab lSSlide" style="width: 1300px; transform: translate3d(-520px, 0px, 0px); height: 174px; padding-bottom: 0%;">
+                                <ul id="image-gallery" class="gallery list-unstyled cS-hidden" >
 
-                                        <li data-thumb="{{ asset('Upload/images/gym/gym1.jpg')}}" class="lslide" style="width: 260px; margin-right: 0px;">
-                                            <img src="{{ asset('Upload/images/gym/gym1.jpg')}}" class="img-responsive mCS_img_loaded">
-                                        </li>
-                                        <li data-thumb="{{ asset('Upload/images/gym/gym2.jpg')}}" class="lslide active" style="width: 260px; margin-right: 0px;">
-                                            <img src="{{ asset('Upload/images/gym/gym2.jpg')}}" class="img-responsive mCS_img_loaded">
-                                        </li>
-                                        <li data-thumb="{{ asset('Upload/images/gym/gym3.jpg')}}" class="lslide" style="width: 260px; margin-right: 0px;">
-                                            <img src="{{ asset('Upload/images/gym/gym3.jpg')}}" class="img-responsive mCS_img_loaded">
-                                        </li>
+                                    <li data-thumb="../Upload/images/gym/gym1.jpg">
+                                        <img src="../Upload/images/gym/gym1.jpg" class="img-responsive">
+                                    </li>
+                                    <li data-thumb="../Upload/images/gym/gym2.jpg">
+                                        <img src="../Upload/images/gym/gym2.jpg" class="img-responsive">
+                                    </li>
+                                    <li data-thumb="../Upload/images/gym/gym3.jpg">
+                                        <img src="../Upload/images/gym/gym3.jpg" class="img-responsive">
+                                    </li>
 
                                 </ul>
 
