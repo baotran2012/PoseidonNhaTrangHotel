@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Superior Room',
+    'title' => 'Poseidon Suite',
     'description' => ' <p>Số phòng : 2</p>
     <p>Diện tích: 60 m<sup>2</sup></p>
     <p>Đặc điểm:

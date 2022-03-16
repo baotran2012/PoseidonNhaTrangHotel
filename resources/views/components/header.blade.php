@@ -88,11 +88,12 @@ FAMILY EXECUTIVE                                                </a>
                             <li  class="">
                                 <a>{{ __('messages.EXPLORE NHA TRANG') }}</a>
                                 <ul class="nav-child" >
-                                            <li><a href="/poseidon-explore/haiduonghoc{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore3.title') }}</a></li>
+                                            <li><a href="/poseidon-explore/khuphotay{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore5.title') }}</a></li>
+                                            <li><a href="/poseidon-explore/chualongson{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore1.title') }}</a></li>
+                                            <li><a href="/poseidon-explore/nhathonui{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore7.title') }}</a></li>
                                             <li><a href="/poseidon-explore/honchong{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore4.title') }}</a></li>
                                             <li><a href="/poseidon-explore/thapba{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore6.title') }}</a></li>
-                                            <li><a href="/poseidon-explore/chualongson{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore1.title') }}</a></li>
-                                            <li><a href="/poseidon-explore/khuphotay{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore5.title') }}</a></li>
+                                            <li><a href="/poseidon-explore/haiduonghoc{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore3.title') }}</a></li>
                                             <li><a href="/poseidon-explore/dammarket{{ session()->get('locale') == '' ? '' : '?lang='.session()->get('locale') }}">{{ __('explore2.title') }}</a></li>
                                 </ul>
                             </li>

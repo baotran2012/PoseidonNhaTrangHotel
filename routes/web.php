@@ -56,6 +56,7 @@ Route::get('/poseidon-explore/thapba', [Home::class, 'gotoExplore3'])->name('pag
 Route::get('/poseidon-explore/chualongson', [Home::class, 'gotoExplore4'])->name('page.chualongson');
 Route::get('/poseidon-explore/khuphotay', [Home::class, 'gotoExplore5'])->name('page.khuphotay');
 Route::get('/poseidon-explore/dammarket', [Home::class, 'gotoExplore6'])->name('page.dammarket');
+Route::get('/poseidon-explore/nhathonui', [Home::class, 'gotoExplore7'])->name('page.nhathonui');
 
 Route::get('/gallery', [Home::class, 'gallery'])->name('page.gallery');
 Route::get('/galleries/accommodations', [Home::class, 'gotoAccommodations'])->name('page.accommodations');

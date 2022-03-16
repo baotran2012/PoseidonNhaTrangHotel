@@ -189,6 +189,13 @@ class Home extends Controller
         return view('../pages/poseidon-explore/dammarket');
     }
 
+    public function gotoExplore7(Request $request)
+    {
+        App::setLocale($request->lang);
+        session()->put('locale', $request->lang);
+        return view('../pages/poseidon-explore/nhathonui');
+    }
+
     public function gallery(Request $request)
     {
         App::setLocale($request->lang);
